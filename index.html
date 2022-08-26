@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+  <style type = "text/css">
+  body {
+    background-color: white;
+   }
+
+  </style>
+<title>Projeto Final</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+
 <body>
 
 <!-- Navbar (sit on top) -->
+
 <div class="Página Inicial">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
     <a href="#home" class="w3-bar-item w3-button"><b>Seja bem vindo!</b></a>
@@ -25,7 +33,7 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="https://images.adsttc.com/media/images/5f2b/25f0/b357/65cf/d300/02b6/large_jpg/HG_Esch_2.jpg?1596663268" alt="Seja bem vindo!" width="1500" height="800">
+  <img class="w3-image" src="https://blogdageografia.com/wp-content/uploads/2022/02/nature-g57cb42492_1280-1024x575.jpg" alt="Seja bem vindo!" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><class="w3-hide-small w3-text-light-grey"> Seja bem vindo!</h1>
   </div>
@@ -66,7 +74,23 @@
     </div>
   </div>
 
-  <!-- About Section -->
+<head>
+    <style type = "text/css">
+      h2 {
+          color: black;
+          font-size:
+      }
+
+      p {
+          text-indent: 1px;
+          text-align: center;
+          letter-spacing: 1px;
+
+      img {
+          border: 8px solid red;
+      }
+    </style>
+
   <div class="w3-container w3-padding-32" id="about">
     <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Controle de Versão - GIT</h2>
     <!-- <img src="" alt="House" style="width:100%" -->
@@ -74,50 +98,62 @@
           saber o conceito de con-<br/>trole de versão e Git. Então, vamos lá!
       </p>
 
-      <h5>O que é Controle de Versão?</h5>
+      <h5 align = "center"> <b>O que é Controle de Versão?</b></h5 align = "center">
 
-      <p align = "justify"> É uma maneira de gerenciar as mudanças ocorridas em um código, ou seja,
-          pode-se dizer que<br/> é um sistema que registra alterações em um arquivo ou grupo
-          de arquivos ao longo do tempo,<br/> para assim, você se lembrar das versões e recuperar elas.
+      <p>É uma maneira de gerenciar as mudanças ocorridas em um código, ou seja,
+          pode-se dizer que<br/> é um sistema que registra alterações em um arquivo ou grupo de arquivos
+          ao longo do tempo,<br/> para assim, você se lembrar das versões e recuperar elas. Existem 3
+          tipos de controle de ver-<br/>são, são eles: Centralizados, Distribuidos e Locais.<p/>
+      <p align = "center"> <b>- Centralizados:</b> desenvolvedores trabalham juntos em um único projeto, tendo apenas um re-<br/>positório .
+
       </p>
+      <center>
+            <img src="https://git-scm.com/figures/18333fig0102-tn.png">
+      </center>
 
-      <p> Existem 3 tipos de controle de versão, são eles: centralizados, distribuidos e locais<p/>
-      <p> - Centralizados: desenvolvedores trabalham juntos em um único projeto, tendo apenas um repositório .<p/>
-      <img src="https://git-scm.com/figures/18333fig0102-tn.png", alt="Image" style="width:40%", style="height= 40%">
-
-      <p align = "justify" > - Distribuidos: Os desenvolvedores do projeto podem trabalhar juntos ao mesmo tempo,
-      com isso, ele é recomendado para projetos que possuem mais de um desenvolvedor onde, todo o repositório é
+      <p align = "center" > <b>- Distribuidos:</b> Os desenvolvedores do projeto podem trabalhar juntos ao mesmo tempo,
+      com is-<br/>so, ele é recomendado para projetos que possuem mais de um desenvolvedor onde, todo o reposi-<br/>tório é
       copiado.
       </p>
-      <img src="https://jkolb.com.br/wp-content/uploads/2018/04/distribuido.png", alt="Image" style="width:40%", style="height= 40%">
+      <center>
+          <img src="https://jkolb.com.br/wp-content/uploads/2018/04/distribuido.png", alt="Image">
+      </center>
+      <p align = "center"><b>Locais:</b> Ele armazena todos as alterações na máquina.</p>
+      <center>
+          <img src="https://git-scm.com/figures/18333fig0101-tn.png", alt="Image">
+      </center>
+      <h5 align = "center"><b>O que é Git?</b></h5>
 
-      <p> - Locais: Ele armazena todos as alterações na máquina.</p>
-      <img src="https://git-scm.com/figures/18333fig0101-tn.png", alt="Image" style="width:40%", style="height= 40%">
-
-
-
-      <h5>O que é Git?</h5>
-
-      <p align = "justify" >Git é um controle de versões, desenvolvido por Linus Torvalds. Ele é usado<br/>
-          para "controlar as versões".
-
+      <p align = "center" >Git é um controle de versões, desenvolvido por Linus Torvalds. Ele é usado
+          para "controlar as versões".<br/> No Git, são armazenados snapshots, ou seja, é como se fosse uma
+          foto da situação do sistema naquela<br/> hora. Ele registra três estados, são eles: consolidade
+          (commited), modificado(modified) e preparado<br/>(staged).
+      </p>
+          <p align = "center">> Consolidade: Ficam armazenados na base local.<br/>
+                              > Modificado: O arquivos sofre modificações, porém ainda não teve commit.<br/>
+                              > Praparado: Arquivos que irão fazer parte do pró-<br/>
+                                ximo snapshot.
       </p>
 
   </div>
   <div class="w3-container w3-padding-33" id="about2">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">TDD</h3>
-    <img src="" alt="House" style="width:100%">
-    <p> CONTROLE DE VERSÃO É...
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">PYTEST</h3>
+    <img src="" alt="Image">
+    <p> Pyteste é um framwork que serve basicamente para o programador
+        fazer testes, ele deve ser escrito na linguagem python e o ar-
+        quivo deve estar com final ".py"> Para fazer a execução, o u-
+        suário deverá ir no terminal do aplicativo que está usando e
+        digitar pytest prosseguido do nome do arquivo..
     </p>
 
   </div>
 <div class="w3-container w3-padding-33" id="about3">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Flask</h3>
-    <img src="" alt="House" style="width:100%">
+    <img src="" alt="Image">
     <p>
     </p>
 </div>
-
+</head>
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contact">
